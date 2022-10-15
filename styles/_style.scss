@@ -1,0 +1,99 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   
+}
+
+
+    a{
+        text-decoration: none!important;
+        color: white!important;
+
+    }
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.my_container{
+
+
+    width: 100%;
+    height: 100vh;
+
+}
+.login{
+  background-color:$main-color;
+}
+#logout{
+    font-weight:700;
+}
+
+.navbar-light .navbar-brand {
+    color: white !important; 
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.navbar-right{
+
+
+gap: 1rem;
+
+
+}
+
+.navbar{
+    background-color:#A370F0;
+  height: 12vh;
+   &-right{
+display: flex;
+align-items: center;
+gap: 1rem;
+a{
+    font-size: 1rem;
+}
+   }
+}
+
+.form{
+   width: 25vw;
+   gap: 2rem;
+   align-items: center;
+
+}
+.logout{
+    align-items: center;
+    justify-content: center;
+    height: 2.8rem;
+    width: 2rem;
+    
+   
+background-color: white;
+a{
+    color: #A370F0;
+    font-size: 1.5rem;
+}
+}
+
+body{
+    background-color:$secondary-color !important;
+  
+    // background-color: black;
+}
+table{
+    color: white !important;
+    tr {
+        color:black;
+    }
+}
+.edit-form {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 0.5rem;
+}

@@ -1,0 +1,21 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/api/addUser": "pages/api/addUser.js",
+  "/api/editJob": "pages/api/editJob.js",
+  "/api/editUser": "pages/api/editUser.js",
+  "/api/getCount": "pages/api/getCount.js",
+  "/api/getDepartments": "pages/api/getDepartments.js",
+  "/api/getEmployyes": "pages/api/getEmployyes.js",
+  "/api/getJobs": "pages/api/getJobs.js",
+  "/api/removeJobDb": "pages/api/removeJobDb.js",
+  "/api/removeUser": "pages/api/removeUser.js",
+  "/api/returnQureryResult": "pages/api/returnQureryResult.js",
+  "/dashbord/depratments": "pages/dashbord/depratments.html",
+  "/dashbord/employees": "pages/dashbord/employees.html",
+  "/dashbord/jobs": "pages/dashbord/jobs.html",
+  "/": "pages/index.html",
+  "/dashbord": "pages/dashbord.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

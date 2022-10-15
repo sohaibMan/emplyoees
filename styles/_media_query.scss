@@ -1,0 +1,27 @@
+// admin.html reposnive
+// 968px  60em
+@media only screen and (max-width: 60em) {
+html{
+    font-size: 90%;
+}
+
+}
+// 655px  60em
+@media only screen and (max-width: 42em) {
+html{
+    font-size: 80%;
+
+}
+.group{
+    display:none;
+}
+.logout{
+    position:absolute;
+    top: 2vh;
+    right: 4vw;
+}
+
+.page-contain{
+    flex-direction: column;
+}
+}
