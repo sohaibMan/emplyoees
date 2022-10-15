@@ -1,5 +1,5 @@
-.next
-old
-node_modules
-package.json
-src
+/.next
+/old
+/node_modules
+/package.json
+/src
